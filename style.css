@@ -1,0 +1,74 @@
+* {
+  font-family: "Open Sans";
+}
+
+
+img {
+  min-width: 250px;
+  max-width: 100%;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #5ea2eb, #3352ea, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Bebas Neue";
+}
+
+h2 {
+    color: #ef8172;
+}
+
+h3 {
+    color: #3352ea;
+}
+#resume,
+#projects, #about-me, #contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li, p {
+  font-size: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.self-description {
+    flex: 0 1 90%; /* "flex-grow flex-shrink flex-basis" */
+    max-width: 800px;
+}
+
+@media (min-width: 768px) {
+    .constrained-paragraph {
+        flex-basis: 70%; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .constrained-paragraph {
+        flex-basis: 60%;
+    }
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url('./images/Work-Photo.jpg');
+    background-size: cover;     /* This ensures the image covers the whole circle */
+    background-position: center; /* This centers the image inside the circle */
+}
+
+
+
