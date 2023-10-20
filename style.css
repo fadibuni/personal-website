@@ -65,7 +65,7 @@ a {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-image: url('./images/Work-Photo.jpg');
+    background-image: url('./images/fadi.jpeg');
     background-size: cover;     /* This ensures the image covers the whole circle */
     background-position: center; /* This centers the image inside the circle */
 }
